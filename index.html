@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumbung Stroberi</title>
+  <style>
+    /* Reset & basic */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+    body { background: #fff0f5; color: #333; line-height: 1.6; }
+
+    /* Container */
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* Hero section */
+    .hero {
+      background: url('brosur lumbung stroberi.jpg') no-repeat center center/cover;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      flex-direction: column;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      text-shadow: 2px 2px 5px #900;
+    }
+    .hero p {
+      font-size: 1.5rem;
+      margin-top: 10px;
+      text-shadow: 1px 1px 3px #900;
+    }
+
+    /* Info section */
+    .info {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .info h2 {
+      color: #c0392b;
+      margin-bottom: 20px;
+    }
+    .info p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.1rem;
+    }
+
+    /* Button */
+    .btn {
+      display: inline-block;
+      background: #e74c3c;
+      color: white;
+      padding: 12px 25px;
+      margin-top: 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #c0392b;
+    }
+
+    /* Footer */
+    footer {
+      background: #900c3f;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+
+    /* Responsive */
+    @media(max-width: 768px){
+      .hero h1 { font-size: 2.2rem; }
+      .hero p { font-size: 1.1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Lumbung Stroberi</h1>
+    <p>Petik stroberi segar langsung dari kebunnya 🍓</p>
+    <a href="#info" class="btn">Selengkapnya</a>
+  </section>
+
+  <!-- Info Section -->
+  <section id="info" class="info">
+    <h2>Mengapa Lumbung Stroberi?</h2>
+    <p>
+      Nikmati pengalaman memetik stroberi fresh dan berkualitas langsung dari kebun. Cocok untuk keluarga, edukasi, dan tentu saja foto-foto instagramable!  
+      Kunjungi kami dan rasakan kesegaran stroberi langsung dari sumbernya.
+    </p>
+    <a href="https://wa.me/628123456789" class="btn">Hubungi Kami</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2026 Lumbung Stroberi. All rights reserved.
+  </footer>
+
+</body>
+</html>
